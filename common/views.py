@@ -21,6 +21,6 @@ def signup(request):
 
 def page_not_found(request, exception):
     """
-    404 page not found
+    404 Page not found
     """
     return render(request, 'common/404.html', {})
